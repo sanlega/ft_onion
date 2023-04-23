@@ -1,0 +1,16 @@
+# Set the default port for SSH
+Port 4242
+
+# Set the protocol version
+Protocol 2
+
+StrictModes yes
+PasswordAuthentication yes
+ChallengeResponseAuthentication no
+
+UsePAM yes
+
+Subsystem sftp /usr/lib/openssh/sftp-server
+PrintLastLog yes
+TCPKeepAlive yes
+Compression delayed

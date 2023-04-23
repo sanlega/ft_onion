@@ -1,0 +1,9 @@
+Log notice stdout
+
+HiddenServiceDir /var/lib/tor/my_website/
+HiddenServicePort 80 127.0.0.1:80
+
+SocksPort 127.0.0.1:9050
+ControlPort 127.0.0.1:9051
+
+__LeaveStreamsUnattached 1
