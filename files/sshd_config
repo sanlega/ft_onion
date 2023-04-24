@@ -1,16 +1,9 @@
-# Set the default port for SSH
-Port 4242
-
-# Set the protocol version
-Protocol 2
-
-StrictModes yes
-PasswordAuthentication yes
+Include /etc/ssh/sshd_config.d/*.conf
 ChallengeResponseAuthentication no
-
 UsePAM yes
-
-Subsystem sftp /usr/lib/openssh/sftp-server
-PrintLastLog yes
-TCPKeepAlive yes
-Compression delayed
+X11Forwarding yes
+PrintMotd no
+AcceptEnv LANG LC_*
+Subsystem	sftp	/usr/lib/openssh/sftp-server
+Port 22 
+#PermitRootLogin no
