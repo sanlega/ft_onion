@@ -19,4 +19,5 @@ EXPOSE 9050
 
 CMD service ssh start && \
     service tor start && \
+    echo 🧅 "\033[1;31mTOR site url:\033[0m \033[1;32m$(cat /var/lib/tor/my_website/hostname)\033[0m" && \
     nginx -g 'daemon off;'
