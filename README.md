@@ -2,7 +2,7 @@
 
 This repository provides you with a Docker setup that includes a **Tor hidden service**, **Nginx** server, and **OpenSSH** server. The Dockerfile sets up the environment and necessary configurations to host a simple static website on the Tor network. 🌐
 
-[![slegaris's 42 ft_onion Score](https://badge42.vercel.app/api/v2/cle3f3fm900060fjx7kw7tghw/project/3073010)]([https://github.com/JaeSeoKim/badge42](https://profile.intra.42.fr/users/slegaris))
+[![slegaris's 42 ft_onion Score](https://badge42.vercel.app/api/v2/cle3f3fm900060fjx7kw7tghw/project/3073010)](https://profile.intra.42.fr/users/slegaris)
 
 ## 📦 Contents
 
